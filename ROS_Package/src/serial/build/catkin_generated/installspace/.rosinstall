@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /tmp/usr/local/setup.sh

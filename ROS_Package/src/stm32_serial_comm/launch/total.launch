@@ -1,0 +1,7 @@
+<launch>
+    <node name="Serial_comm" pkg="stm32_serial_comm" type="Serial_comm" output="screen"/>
+
+    <!--node name="joycallback" pkg="stm32_serial_comm" type="joycallback" />
+    <node name="joy_node" pkg="joy" type="joy_node" /-->
+    
+</launch>

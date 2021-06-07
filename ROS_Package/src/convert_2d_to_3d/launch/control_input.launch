@@ -1,0 +1,4 @@
+<launch>
+    <node name="convert_boundingbox_node" pkg="convert_2d_to_3d" type="convert_boundingbox_node"/>
+    <node name="control_input_node" pkg="convert_2d_to_3d" type="control_input_node" />
+</launch>

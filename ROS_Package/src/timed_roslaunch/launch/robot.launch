@@ -1,0 +1,22 @@
+<launch>
+    <!--realsense package-->
+    <node pkg="timed_roslaunch" type="timed_roslaunch.sh"
+      args="0 realsense2_camera rs_rgbd.launch"
+      name="realsense_camera_pkg" output="screen" />
+  
+    <!--darknet_ros package-->
+    <node pkg="timed_roslaunch" type="timed_roslaunch.sh"
+      args="4 darknet_ros darknet_ros.launch"
+      name="darknet_ros_pkg" output="screen" />
+    
+    <!--convert_2d_to_3d package-->
+    <node pkg="timed_roslaunch" type="timed_roslaunch.sh"
+      args="4 convert_2d_to_3d control_input.launch"
+      name="convert_2d_to_3d_pkg" output="screen" />
+    
+    <!--stm32_serial_comm package -->
+    <node pkg="timed_roslaunch" type="timed_roslaunch.sh"
+      args="5 stm32_serial_comm total.launch"
+      name="stm32_serial_comm_pkg" output="screen" />
+
+</launch>

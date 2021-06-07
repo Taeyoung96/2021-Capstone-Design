@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>convert_2d_to_3d</name>
+  <version>0.0.0</version>
+  <description>The convert_2d_to_3d package</description>
+
+  <maintainer email="oorrppp@kist.re.kr">user</maintainer>
+
+  <license>BSD</license>
+  <author email="oorrppp@kist.re.kr">GiJae Lee</author>
+
+    <build_depend>message_generation</build_depend>
+    <exec_depend>message_runtime</exec_depend>
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>cv_bridge</build_depend>
+  <build_depend>pcl_ros</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>zbar</build_depend>
+  <build_depend>message_generation</build_depend>
+
+  <build_export_depend>cv_bridge</build_export_depend>
+  <build_export_depend>pcl_ros</build_export_depend>
+  <build_export_depend>roscpp</build_export_depend>
+  <build_export_depend>zbar</build_export_depend>
+  <exec_depend>cv_bridge</exec_depend>
+  <exec_depend>pcl_ros</exec_depend>
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>zbar</exec_depend>
+  <exec_depend>message_runtime</exec_depend>
+  <depend>darknet_ros_msgs</depend>
+
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+
+  </export>
+</package>
