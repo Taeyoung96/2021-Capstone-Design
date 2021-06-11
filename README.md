@@ -15,9 +15,27 @@
 
 ## 작품 목표    
 
+1. Omni Wheel(3개) 기반 모바일 로봇 제작  
+2. Cascade 기반의 모터 속도 PI 제어기 설계  
+3. Fuzzy를 이용한 상위 제어기 설계  
+4. RGB-D 카메라 기반 Fuzzy 제어기 Input 설계  
+5. 딥러닝 기반 번호판 검출(Yolov3-tiny)  
+
 ## 작품 시연 영상  
 
 ## ROS Package 설명  
+
+### Jetson Xavier 환경설정  
+
+|Library, Package 및 OS|Version|  
+|:---:|:---:|  
+|Jetpack|4.4.1|  
+|ROS|Melodic|  
+|Ubuntu|18.04|    
+|CUDA|10.2|  
+|CuDNN|8.0.0|
+|OpenCV|4.1.1|
+|PCL|1.8|  
 
 ## Hardware Architecture  
 
