@@ -24,7 +24,7 @@
 
 ## 작품 시연 영상  
 
-[작품 시연 영상 링크](https://drive.google.com/file/d/1VhgQszCi3qcgeaYeu4G26MKVO3VN6_wq/view?usp=sharing)  
+- [작품 시연 영상 링크](https://drive.google.com/file/d/1VhgQszCi3qcgeaYeu4G26MKVO3VN6_wq/view?usp=sharing)  
 
 ## ROS Package 설명  
 
