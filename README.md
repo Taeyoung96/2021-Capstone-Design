@@ -40,6 +40,34 @@
 |OpenCV|4.1.1|
 |PCL|1.8|  
 
+### ROS Package 상세 설명
+
+|ROS package 이름|Description|  
+|:---:|:---:|  
+|convert_2d_to_3d|Fuzzy 제어기 및 Yolov3 Bounding box 기반 Input Algorithm 설계|  
+|darknet_ros|Yolov3와 ROS를 연동하기 위한 패키지|  
+|joystick_drivers|옴니휠을 조이스틱으로 제어하기 위한 패키지|  
+|omni_bot_msg|Omniwheel robot의 customized ROS message|  
+|realsense-ros|Realsense 카메라를 ROS 연동을 하기 위한 패키지|  
+|serial|serial 통신을 위한 ROS 패키지|  
+|stm32_serial_comm|STM32와 Jetson Xavier 통신을 위한 패키지|  
+|timed_roslaunch|로봇 작동에 필요한 launch 파일들을 한번에 작동시키기 위한 패키지|  
+|vision_opencv|ROS와 OpenCV 연동을 위한 패키지|  
+
+### How to start  
+
+1. `realsense-ros` 패키지에서 Depth filtering을 적용, Point cloud를 먼저 publish한다.  
+- `roslaunch realsense2_camera rs_rgbd.launch`    
+
+2. `darknet-ros` 패키지를 활용하여 번호판 검출, Bounding box에 대한 좌표를 publish한다.  
+- `roslaunch darknet_ros darknet_ros.launch`  
+
+3. Bounding box 및 Point cloud를 기반으로 Fuzzy 제어기에 들어갈 Input 계산, Fuzzy 제어기를 통한 각 옴니휠에 들어갈 각속도 계산  
+- `roslaunch convert_2d_to_3d control_input.launch`  
+
+4. Seiral 통신을 활용한 각속도 값을 STM32로 전달  
+- `roslaunch stm32_serial_comm total.launch`  
+
 ## Hardware Architecture  
 
 <p align="center">
