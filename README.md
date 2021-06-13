@@ -55,3 +55,9 @@
 </p> 
 
 ## Reference  
+- Darknet-ROS for OpenCV4 : [tom13133/darknet_ros](https://github.com/tom13133/darknet_ros)  
+- Realsense ROS package : [IntelRealSense/realsense-ros](https://github.com/IntelRealSense/realsense-ros)  
+- Serial : [serial ROS package](http://wiki.ros.org/serial)  
+- Joystick for ROS : [joy ROS package](http://wiki.ros.org/joy)  
+- Delay the launch of a roslaunch file : [timed_roslaunch ROS package](http://wiki.ros.org/timed_roslaunch)  
+- ROS with OpenCV : [vision_opencv ROS package](http://wiki.ros.org/vision_opencv)
