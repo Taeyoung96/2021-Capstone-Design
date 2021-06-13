@@ -40,7 +40,7 @@
 ## Hardware Architecture  
 
 <p align="center">
-<img width="600"  src="Image/Hardware.PNG">
+<img width="600"  src="Image/Hardware.png">
 </p> 
 
 ## System Architecture  
