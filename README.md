@@ -27,13 +27,13 @@
 - [작품 시연 영상 링크](https://drive.google.com/file/d/1VhgQszCi3qcgeaYeu4G26MKVO3VN6_wq/view?usp=sharing)  
 
 <p align="center"><img src="Image/1.gif" width="360px"></p>  
-<p align="center"> < 번호판을 Target으로 모바일 로봇 제어 ></p>  
+<p align="center"> < 번호판을 기준으로 Target 위치 선정 및 모바일 로봇 제어 ></p>  
 
 <p align="center"><img src="Image/2.gif" width="360px"></p>  
-<p align="center">< 차량의 무선 충전 모듈을 충전></p>  
+<p align="center">< 전자기 유도를 통한 전력 송신 후 LED 점등 ></p>  
 
 <p align="center"><img src="Image/3.gif" width="360px"></p>  
-<p align="center">< 실제 차 번호판을 Target으로 모바일 로봇 제어 ></p>  
+<p align="center">< 실제 차 번호판을 기준으로 Target 위치 선정 및 모바일 로봇 제어 ></p>  
 
 ## ROS Package 설명  
 
