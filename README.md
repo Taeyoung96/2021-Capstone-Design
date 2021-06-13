@@ -39,6 +39,18 @@
 
 ## Hardware Architecture  
 
+<p align="center">
+<img width="600"  src="Image/Hardware.PNG">
+</p> 
+
 ## System Architecture  
+
+<p align="center">
+<img width="600"  src="Image/system_Architecture1.JPG">
+</p> 
+
+<p align="center">
+<img width="600"  src="Image/system_Architecture2.JPG">
+</p> 
 
 ## Reference  
