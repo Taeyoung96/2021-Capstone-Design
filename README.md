@@ -3,6 +3,8 @@
 광운대학교 로봇학부 2021년도 1학기 캡스톤 디자인 '로부스'팀 Repository입니다.  
 개발 기간 : 2021.3 ~ 2021.6  
 
+**캡스톤 작품에 대한 자세한 내용은 본 [논문](https://github.com/Taeyoung96/2021-Capstone-Design/blob/master/Paper/Capstone_paper.pdf)에서 확인할 수 있습니다.**  
+
 ## 팀원 구성  
 
 |팀원|맡은 역할|
